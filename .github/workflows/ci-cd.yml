@@ -30,9 +30,8 @@ jobs:
 
     - name: Run code style checks
       run: |
-       make run-flake || "No src or tests directories found,skipping flake8"
+       make run-flake 
 
     - name: Format code
       run: |
-       make run-format  || "No src or tests directories found,skipping formatting"
-   
+       make run-format
