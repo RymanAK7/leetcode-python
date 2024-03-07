@@ -1,7 +1,7 @@
 from typing import List
 
 
-class Solution:
+class Solution1:
     def missingNumber(self, nums: List[int]) -> int:
         n = len(nums)
         sum_0_to_n = (n * (n + 1)) // 2
